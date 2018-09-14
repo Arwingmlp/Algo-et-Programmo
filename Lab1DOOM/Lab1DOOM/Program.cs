@@ -12,12 +12,7 @@ namespace Lab1DOOM
         static void Main(string[] args)
         {
             //Notes de musique
-            int do1 = 131;
-            int doD1 = 139;
-            int re1 = 147;
-            int reD1 = 156;
             int mi1 = 165;
-            int fa1 = 175;
             int faD1 = 185;
             int sol1 = 196;
             int solD1 = 208;
@@ -25,7 +20,6 @@ namespace Lab1DOOM
             int laD1 = 233;
             int si1 = 247;
             int do2 = 262;
-            int doD2 = 277;
             int re2 = 293;
             int reD2 = 311;
             int mi2 = 330;
@@ -43,7 +37,6 @@ namespace Lab1DOOM
             int laD3 = 831;
             int doD4 = 1109;
             //Longetude
-            int roundN = 2000;
             int halfN = 1000;
             int noteN = 750;
             int blackN = 500;
@@ -66,7 +59,6 @@ namespace Lab1DOOM
             bool pistol = false;
             bool smg = false;
             bool shotgun = false;
-            bool BFG = false;
             bool masterB = false;
             //Choix
             string name = "X";
@@ -79,7 +71,6 @@ namespace Lab1DOOM
             int RNG2 = 0;
             int sJW = 8;
             //Enemy
-            int lostS = 1;
             int possD = 20;
             int cado = 150;
             int revD = 250;
