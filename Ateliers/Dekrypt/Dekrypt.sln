@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dekrypt", "Dekrypt\Dekrypt.csproj", "{63C18318-6DA2-444C-BD02-FB0FDEBCBFDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63C18318-6DA2-444C-BD02-FB0FDEBCBFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C18318-6DA2-444C-BD02-FB0FDEBCBFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C18318-6DA2-444C-BD02-FB0FDEBCBFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C18318-6DA2-444C-BD02-FB0FDEBCBFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C74D969C-E1C4-4898-ABD0-74C7E97FF6F5}
+	EndGlobalSection
+EndGlobal
