@@ -1,0 +1,7 @@
+M:\visual studio 2017\Projects\AtStringBreak\AtStringBreak\bin\Debug\AtStringBreak.exe.config
+M:\visual studio 2017\Projects\AtStringBreak\AtStringBreak\bin\Debug\AtStringBreak.exe
+M:\visual studio 2017\Projects\AtStringBreak\AtStringBreak\bin\Debug\AtStringBreak.pdb
+M:\visual studio 2017\Projects\AtStringBreak\AtStringBreak\obj\Debug\AtStringBreak.csprojAssemblyReference.cache
+M:\visual studio 2017\Projects\AtStringBreak\AtStringBreak\obj\Debug\AtStringBreak.csproj.CoreCompileInputs.cache
+M:\visual studio 2017\Projects\AtStringBreak\AtStringBreak\obj\Debug\AtStringBreak.exe
+M:\visual studio 2017\Projects\AtStringBreak\AtStringBreak\obj\Debug\AtStringBreak.pdb
