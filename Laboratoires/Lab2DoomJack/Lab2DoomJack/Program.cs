@@ -174,7 +174,7 @@ namespace Lab2BlackDoom
             Console.WriteLine("");
             Console.WriteLine("Par curiosité, vous vous assisez sur une des deux chaise...");
             Console.WriteLine("");
-            Console.WriteLine("Quand soudin, un reapper apparait sur l'autre chaise !!");
+            Console.WriteLine("Quand soudin, un reaper apparait sur l'autre chaise !!");
             Console.WriteLine("");
             Console.WriteLine("Appuyer sur une touche pour continuer....");
             Console.ReadKey();
@@ -250,9 +250,7 @@ namespace Lab2BlackDoom
 
                 do
                 {
-                    playerPV = 100;
-                    enemyPV = 100;
-
+                    
                     Console.Clear();
                     gaming();
                     Console.WriteLine("How much do you wanna bet :3 ?");
@@ -445,6 +443,9 @@ namespace Lab2BlackDoom
                     }
                 }
                 while (enemyPV > 0 && playerPV > 0);
+
+		            playerPV = 100;
+                    enemyPV = 100;
 
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.Clear();
