@@ -59,17 +59,17 @@ namespace Lab2BlackDoom
             int additionPlayer()
             {
                 int result = 0;
-
+                              
                 result = card1 + card2 + card3;
-
+                
                 return result;
             }
             int additionBot()
             {
                 int result = 0;
-
+                
                 result = Bcard1 + Bcard2 + Bcard3;
-
+                
                 return result;
             }
             int winning()
@@ -88,13 +88,25 @@ namespace Lab2BlackDoom
             }
 
             //Début du programme
-
-            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "WiiMiitheme.wav";
-            player.Play();
+            
+            
+            
 
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
+
+            try
+            {
+                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "WiiMiitheme.wav";
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadKey();
+            }
+            
 
 
             Console.WriteLine("Bienvenue dans mon jeu de BlackJack :P !");
@@ -121,8 +133,16 @@ namespace Lab2BlackDoom
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
 
-            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "DoomTheme.wav";
-            player.Play();
+            try
+            {
+                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "DoomTheme.wav";
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadKey();
+            }
 
             System.Threading.Thread.Sleep(4600);
 
@@ -165,8 +185,16 @@ namespace Lab2BlackDoom
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Red;
 
-            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "DoomImp.wav";
-            player.Play();
+            try
+            {
+                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "DoomImp.wav";
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadKey();
+            }
 
             Console.WriteLine("Vous entrez dans une pièce sombre avec un spotlight de lumière...");
             Console.WriteLine("");
@@ -183,8 +211,16 @@ namespace Lab2BlackDoom
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
 
-            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "UndertaleGhost.wav";
-            player.Play();
+            try
+            {
+                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "UndertaleGhost.wav";
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadKey();
+            }
 
             reaper1();
             reaperOwO();
@@ -235,16 +271,27 @@ namespace Lab2BlackDoom
             Console.WriteLine("|                                                                                           (Press Space to continue) |");
             Console.WriteLine("|_____________________________________________________________________________________________________________________|");
             Console.ReadKey();
-
+            
             do
             {
-                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "GameCorner.wav";
-                player.Play();
+
+                try
+                {
+                    player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "GameCorner.wav";
+                    player.Play();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.ReadKey();
+                }
+
 
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Green;
 
+                
 
                 //Gaming time :P
 
@@ -444,9 +491,6 @@ namespace Lab2BlackDoom
                 }
                 while (enemyPV > 0 && playerPV > 0);
 
-		            playerPV = 100;
-                    enemyPV = 100;
-
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.White;
@@ -455,8 +499,16 @@ namespace Lab2BlackDoom
                 if (playerPV <= 0)
                 {
 
-                    player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "Agelosing.wav";
-                    player.Play();
+                    try
+                    {
+                        player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "Agelosing.wav";
+                        player.Play();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadKey();
+                    }
 
                     reaper1();
                     reaperRich();
@@ -473,8 +525,16 @@ namespace Lab2BlackDoom
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.DarkRed;
 
-                    player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "Brawl.wav";
-                    player.Play();
+                    try
+                    {
+                        player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "Brawl.wav";
+                        player.Play();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadKey();
+                    }
 
                     Console.WriteLine(" _______  _______  __   __  _______      _______  __   __  _______  ______  ");
                     Console.WriteLine("|       ||   _   ||  |_|  ||       |    |       ||  | |  ||       ||    _ | ");
@@ -488,6 +548,10 @@ namespace Lab2BlackDoom
                     Console.WriteLine("1. Let's try that again !");
                     Console.WriteLine("2. Ragequit");
                     choice = Convert.ToInt32(Console.ReadLine());
+
+	            playerPV = 100;
+                    enemyPV = 100;
+
                     if (choice == 2)
                     {
                         System.Environment.Exit(1);
@@ -496,8 +560,16 @@ namespace Lab2BlackDoom
                 //Victory
                 else if (enemyPV <= 0)
                 {
-                    player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "Flowey.wav";
-                    player.Play();
+                    try
+                    {
+                        player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "Flowey.wav";
+                        player.Play();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadKey();
+                    }
 
                     reaper1();
                     reaperCry();
@@ -532,12 +604,23 @@ namespace Lab2BlackDoom
                     Console.WriteLine("|   1- Continuez à jouez... 2- Se levez et exploser la tête du reaper avec un BFG           (Press 1 or 2 to continue)|");
                     Console.WriteLine("|_____________________________________________________________________________________________________________________|");
                     choice = Convert.ToInt32(Console.ReadLine());
+
+		    playerPV = 100;
+                    enemyPV = 100;
                 }
             }
             while (choice == 1);
 
-            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "DoomVictory.wav";
-            player.Play();
+            try
+            {
+                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "DoomVictory.wav";
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadKey();
+            }
 
             Console.Clear();
             reaper1();
@@ -574,8 +657,16 @@ namespace Lab2BlackDoom
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|_____________________________________________________________________________________________________________________|");
 
-            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "BFG.wav";
-            player.Play();
+            try
+            {
+                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "BFG.wav";
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadKey();
+            }
 
             System.Threading.Thread.Sleep(3200);
 
@@ -596,8 +687,16 @@ namespace Lab2BlackDoom
 
 
 
-            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "DOOM2016.wav";
-            player.Play();
+            try
+            {
+                player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "DOOM2016.wav";
+                player.Play();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadKey();
+            }
 
             Console.WriteLine("______ _____  ________  ___   _____  _____ ");
             Console.WriteLine("|  _  |  _  ||  _  |  |/  |  |_   _||_   _|");

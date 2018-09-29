@@ -26,7 +26,6 @@ C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJa
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\bin\Debug\Flowey.wav
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\bin\Debug\GameCorner.wav
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\bin\Debug\UndertaleGhost.wav
-C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\bin\Debug\WiiMiitheme.wav
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\bin\Debug\Lab2DoomJack.exe.config
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\bin\Debug\Lab2DoomJack.exe
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\bin\Debug\Lab2DoomJack.pdb
@@ -34,3 +33,4 @@ C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJa
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\obj\Debug\Lab2DoomJack.csproj.CoreCompileInputs.cache
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\obj\Debug\Lab2DoomJack.exe
 C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\obj\Debug\Lab2DoomJack.pdb
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2DoomJack\Lab2DoomJack\bin\Debug\WiiMiitheme.wav
