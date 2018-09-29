@@ -1,0 +1,29 @@
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\WiiMiitheme.wav
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Lab2BlackDoom.exe.config
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Lab2BlackDoom.exe
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Lab2BlackDoom.pdb
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\obj\Debug\Lab2BlackDoom.csprojAssemblyReference.cache
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\obj\Debug\Lab2BlackDoom.csproj.CoreCompileInputs.cache
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\obj\Debug\Lab2BlackDoom.exe
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\obj\Debug\Lab2BlackDoom.pdb
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\DoomTheme.wav
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\DoomImp.wav
+M:\visual studio 2017\Projects\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\UndertaleGhost.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\DoomImp.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\DoomTheme.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\UndertaleGhost.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\WiiMiitheme.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Lab2BlackDoom.exe.config
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Lab2BlackDoom.exe
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Lab2BlackDoom.pdb
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\obj\Debug\Lab2BlackDoom.csprojAssemblyReference.cache
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\obj\Debug\Lab2BlackDoom.csproj.CoreCompileInputs.cache
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\obj\Debug\Lab2BlackDoom.exe
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\obj\Debug\Lab2BlackDoom.pdb
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\GameCorner.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Agelosing.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\DOOM2016.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\DoomVictory.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Flowey.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\BFG.wav
+C:\Users\Jqcob\3D Objects\Algo et Programmo\Laboratoires\Lab2BlackDoom\Lab2BlackDoom\bin\Debug\Brawl.wav
