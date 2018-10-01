@@ -299,6 +299,15 @@ namespace Lab2BlackDoom
                 {
                     
                     Console.Clear();
+
+                    card1 = 0;
+                    card2 = 0;
+                    card3 = 0;
+                    Bcard1 = 0;
+                    Bcard2 = 0;
+                    Bcard3 = 0;
+
+
                     gaming();
                     Console.WriteLine("How much do you wanna bet :3 ?");
                     Console.WriteLine("PS- You have " + playerPV + " energies left :3");
@@ -320,6 +329,8 @@ namespace Lab2BlackDoom
                     card1 = PickaCard();
                     card2 = PickaCard();
 
+                    Console.Clear();
+                    gaming();
                     Console.WriteLine("So, you bet " + bet + " life energies");
                     Console.WriteLine("");
                     Console.WriteLine("Your cards value are " + card1 + " and " + card2);
@@ -629,7 +640,7 @@ namespace Lab2BlackDoom
             Console.WriteLine(" _____________________________________________________________________________________________________________________ ");
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|    -u- Que fait tu... ? C'est quoi cette arme ? et pourquoi me vise tu ?                                            |");
-            Console.WriteLine("|    Tu sais que tu ne peux pas me tué, alors pourquoi essayer ^^\" ?                                                 |");
+            Console.WriteLine("|    Tu sais que tu ne peux pas me tué, alors pourquoi essayer ^^\" ?                                                  |");
             Console.WriteLine("|                                                                                           (Press Space to continue) |");
             Console.WriteLine("|_____________________________________________________________________________________________________________________|");
             Console.ReadKey();
@@ -641,7 +652,7 @@ namespace Lab2BlackDoom
             Console.WriteLine(" _____________________________________________________________________________________________________________________ ");
             Console.WriteLine("|                                                                                                                     |");
             Console.WriteLine("|    -u- Alors, assis toi et recommencons ~                                                                           |");
-            Console.WriteLine("|    S'il vous plait ? ^^\" ?                                                                                         |");
+            Console.WriteLine("|    S'il vous plait ? ^^\" ?                                                                                          |");
             Console.WriteLine("|                                                                                           (Press Space to continue) |");
             Console.WriteLine("|_____________________________________________________________________________________________________________________|");
             Console.ReadKey();
@@ -790,7 +801,7 @@ namespace Lab2BlackDoom
             System.Threading.Thread.Sleep(100);
             Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.White;
             System.Threading.Thread.Sleep(100);
         }
     }
