@@ -1,0 +1,14 @@
+M:\visual studio 2017\Projects\PetlyaInTablitsa\PetlyaInTablitsa\bin\Debug\PetlyaInTablitsa.exe.config
+M:\visual studio 2017\Projects\PetlyaInTablitsa\PetlyaInTablitsa\bin\Debug\PetlyaInTablitsa.exe
+M:\visual studio 2017\Projects\PetlyaInTablitsa\PetlyaInTablitsa\bin\Debug\PetlyaInTablitsa.pdb
+M:\visual studio 2017\Projects\PetlyaInTablitsa\PetlyaInTablitsa\obj\Debug\PetlyaInTablitsa.csprojAssemblyReference.cache
+M:\visual studio 2017\Projects\PetlyaInTablitsa\PetlyaInTablitsa\obj\Debug\PetlyaInTablitsa.csproj.CoreCompileInputs.cache
+M:\visual studio 2017\Projects\PetlyaInTablitsa\PetlyaInTablitsa\obj\Debug\PetlyaInTablitsa.exe
+M:\visual studio 2017\Projects\PetlyaInTablitsa\PetlyaInTablitsa\obj\Debug\PetlyaInTablitsa.pdb
+C:\Users\Jqcob\3D Objects\Attelier Loop\PetlyaInTablitsa\PetlyaInTablitsa\bin\Debug\PetlyaInTablitsa.exe.config
+C:\Users\Jqcob\3D Objects\Attelier Loop\PetlyaInTablitsa\PetlyaInTablitsa\bin\Debug\PetlyaInTablitsa.exe
+C:\Users\Jqcob\3D Objects\Attelier Loop\PetlyaInTablitsa\PetlyaInTablitsa\bin\Debug\PetlyaInTablitsa.pdb
+C:\Users\Jqcob\3D Objects\Attelier Loop\PetlyaInTablitsa\PetlyaInTablitsa\obj\Debug\PetlyaInTablitsa.csprojAssemblyReference.cache
+C:\Users\Jqcob\3D Objects\Attelier Loop\PetlyaInTablitsa\PetlyaInTablitsa\obj\Debug\PetlyaInTablitsa.csproj.CoreCompileInputs.cache
+C:\Users\Jqcob\3D Objects\Attelier Loop\PetlyaInTablitsa\PetlyaInTablitsa\obj\Debug\PetlyaInTablitsa.exe
+C:\Users\Jqcob\3D Objects\Attelier Loop\PetlyaInTablitsa\PetlyaInTablitsa\obj\Debug\PetlyaInTablitsa.pdb
