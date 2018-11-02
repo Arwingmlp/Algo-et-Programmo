@@ -84,7 +84,7 @@ namespace Lab3Doomed
 
             int WinLose = 0;
 
-            
+
             int BotChoice = 0;
 
 
@@ -95,7 +95,7 @@ namespace Lab3Doomed
 
                 //Player Victory
 
-                if((value1 == 1 && value2 == 1 && value3 == 1) || (value4 == 1 && value5 == 1 && value6 == 1) || (value7 == 1 && value8 == 1 && value9 == 1))
+                if ((value1 == 1 && value2 == 1 && value3 == 1) || (value4 == 1 && value5 == 1 && value6 == 1) || (value7 == 1 && value8 == 1 && value9 == 1))
                 {
                     result = 1;
                 }
@@ -103,7 +103,7 @@ namespace Lab3Doomed
                 {
                     result = 1;
                 }
-                else if((value1 == 1 && value5 == 1 && value9 == 1) || (value3 == 1 && value5 == 1 && value7 == 1))
+                else if ((value1 == 1 && value5 == 1 && value9 == 1) || (value3 == 1 && value5 == 1 && value7 == 1))
                 {
                     result = 1;
                 }
@@ -661,7 +661,15 @@ namespace Lab3Doomed
             //Exercice 1 inutile---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             else
             {
-                float[] tabRes = { 23, 65, 132, 34, 123, 32, 45, 6, 3, 24, 90, 45, 243, 13, 35, 46, 86, 64, 52, 75 };
+                //Génératrion du tableau
+                float[] tabRes = new float[300];
+                for (i = 0; i­ < 300; i++)
+                {
+                    choice = random.Next(1, 10001);
+                    tabRes[i] = choice;
+                    
+                }
+                
 
                 Console.WriteLine("Que voulez-vous faire ?");
                 Console.WriteLine();
@@ -671,14 +679,14 @@ namespace Lab3Doomed
                 Console.WriteLine("4. Faire la Moyenne");
                 Console.WriteLine("5. Quitter");
 
-                
+
 
                 choice = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
 
                 switch (choice)
                 {
-                    
+
                     case 1:
                         float maxValue = tabRes.Max();
                         Console.WriteLine("Le plus grand nombre est " + maxValue);
@@ -686,28 +694,28 @@ namespace Lab3Doomed
                         Console.ReadKey();
 
                         break;
-                    
+
                     case 2:
                         float minValue = tabRes.Min();
                         Console.WriteLine("Le plus petit nombre est " + minValue);
 
                         Console.ReadKey();
                         break;
-                    
+
                     case 3:
                         Console.WriteLine("Veuillez rentrez votre nombre :3");
                         choice = Convert.ToInt32(Console.ReadLine());
 
                         bool trrr = false;
 
-                        for (i = 0; i < 20; i++)
+                        for (i = 0; i < 300; i++)
                         {
-                            if(choice == tabRes[i])
+                            if (choice == tabRes[i])
                             {
                                 trrr = true;
                             }
                         }
-                        if(trrr == true)
+                        if (trrr == true)
                         {
                             Console.WriteLine("Votre chiffre ce trouve dans le tableau  !");
                         }
@@ -720,14 +728,12 @@ namespace Lab3Doomed
 
                         break;
                     case 4:
-                        for (i = 0; i < 20; i++)
+                        for (i = 0; i < 300; i++)
                         {
                             TotResult = TotResult + tabRes[i];
                         }
-                        TotResult = TotResult / 20;
-                        Console.WriteLine("La moyenne des 20 nombres est de " + TotResult);
-                        float biggestNumber = tabRes.Max();
-                        Console.WriteLine("Le plus grand nombre est " + biggestNumber);
+                        TotResult = TotResult / 300;
+                        Console.WriteLine("La moyenne des 300 nombres est de " + TotResult);
                         Console.WriteLine();
                         Console.WriteLine("Appuyer sur une touche pour continuer...");
                         Console.ReadKey();
@@ -736,7 +742,7 @@ namespace Lab3Doomed
                 }
             }
 
-            
+
 
         }
 
@@ -905,8 +911,7 @@ namespace Lab3Doomed
             Console.WriteLine("");
             Console.WriteLine("Veuillez faire votre choix...");
         }
-      
+
     }
 
 }
-
